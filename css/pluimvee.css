@@ -1,0 +1,145 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #2c2c39;
+}
+
+a, a:link, a:active, a:focus {
+    color: #a44337;
+}
+
+.intro {
+    text-align: center;
+    height: 100vh;
+    background-color: #d2cac0;
+    background-image: url(../img/background-chicken.jpg);
+    background-position: center;
+    background-origin: border-box;
+    background-size: cover;
+    width: 100%;
+}
+
+.vakantie {
+    text-align: center;
+    height: 70vh;
+    background-color: #6a4c3b;
+    background-image: url(../img/background-chicken-roast.jpg);
+    background-position: center;
+    background-origin: border-box;
+    background-size: cover;
+    width: 100%;
+    padding-top: 30vh
+}
+
+.vakantie h2 {
+  color: white;
+  text-shadow: rgba(0,0,0,.3) 2px 2px;
+}
+
+.intro h1 {
+    padding-top: 51vh;
+    font-size: 7.5em;
+    margin: 0;
+    color: white;
+    text-shadow: black 2px 2px;
+    letter-spacing: -.05em;
+    line-height: .75em;
+}
+
+@media(max-width:34em){ 
+    .intro {
+        height: 40vh;
+    }
+    .intro h1 {
+        font-size: 2.5em;
+        padding-top: 25vh;
+    }
+}
+
+.intro h2 span {
+    color: white;
+    background: black;
+    padding: .095em .65em 0;
+    letter-spacing: -.05em;
+}
+
+.info {
+  text-align: center;
+  background-color: #d2cac0;
+  background-image: url(../img/background-racket.jpg);
+  background-position: center;
+  background-origin: border-box;
+  background-size: cover;
+  width: 100%;
+  padding: 3em 0;
+}
+
+.info .container {
+    background: white;
+    padding: 2em;
+    margin: 0 auto;
+    width: 340px;
+}
+
+.info p {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.cta {
+  text-align: center;
+  background-color: #4c9c6f;
+  background-image: url(../img/background-owyeah.jpg);
+  background-position: center;
+  background-origin: border-box;
+  background-size: cover;
+  width: 100%;
+  padding: 3em 0;
+  color: white;
+  text-shadow: rgba(0,0,0,.3) 2px 2px;
+}
+
+@media(min-width:34em){ 
+  p {
+    width: 50%;
+    margin: 1em auto;
+  }
+}
+
+.text-muted {
+    color: #959780;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.hr-sm {
+    width: 40px;
+    margin: 2em auto;
+    border-top: 4px solid #000;
+}
+
+
+.embed-responsive.embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
